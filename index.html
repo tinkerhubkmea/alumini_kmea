@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href="index.html"><img src="images/Mask group (1).png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="#cam">CAMPUS</a></li>
+                <li><a href="#fac">FACILITIES</a></li>
+                <li><a href="/search engine.html">ALUMINI</a></li>
+                <li><a href="">NEWS & STORIES</a></li>
+                <button id="login"><a href="#">LOGIN</a></button>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <div class="text-box">
+        <h1>KMEA Engineering College</h1>
+        <p>"Unlock Your Potential at KMEA Engineering College - Where Knowledge Meets Opportunity."</p>
+        <a href="" class="hero-btn">Visit Us to Know More</a>
+       </div>   
+    </section>
+
+    <section class="course">
+        <div class="row">
+            <div class="course-col">
+                <img src="images/buildings.svg" alt="">
+                <h3>Alumni in your city</h3>
+                <p>Find Alumni living in your city & connect with them</p>
+            </div>
+            <div class="course-col">
+                <img src="images/graduated.svg" alt="">
+                <h3>Your Batchmates</h3>
+                <p>view our exclusive batchmates directory to know about whereabouts of your batchmates</p>
+            </div>
+            <div class="course-col">
+                <img src="images/Alumni-directory.svg" alt="">
+                <a href="/search engine.html"><h3>Alumni Directory</h3></a>
+                <p>explore complete alumni directory & connect with alumni with your interest & domain</p>
+            </div>
+            <div class="course-col">
+                <img src="images/portraits.svg" alt="">
+                <h3>Your Alumni Profile</h3>
+                <p>create & complete your alumni profile and remain connected with all opportunities matching your interest</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus" id="cam">
+        <h1>Our Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/DSC_0032-01.jpeg" alt="">
+                <div class="layer">
+                    <h3>blah</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/DSC_0033-01.jpeg" alt="">
+                <div class="layer">
+                    <h3>blah</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/DSC_0059-01.jpeg" alt="">
+                <div class="layer">
+                    <h3>blah</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities" id="fac">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetr adipiscing emit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amer, consectetur adipsicing elit. Pellentesque aliquet turpis mulla.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amer, consectetur adipsicing elit. Pellentesque aliquet turpis mulla.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amer, consectetur adipsicing elit. Pellentesque aliquet turpis mulla.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Loremipsum dolor sit ame, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut.. maecenas ut venenatis es,e t dapibus purus.</p>
+                    <h3>Name</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut.. maecenas ut venenatis es,e t dapibus purus.</p>
+                    <h3>Name</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "-90px";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-285px";
+        }
+
+    </script>
+</body>
+</html>
