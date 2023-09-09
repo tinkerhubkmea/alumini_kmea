@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumni Directory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="images/Mask group (1).png" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="#cam">CAMPUS</a></li>
+              <li><a href="#fac">FACILITIES</a></li>
+              <li><a href="/alumini.html">ALUMNI</a></li>
+              <li><a href="">NEWS & STORIES</a></li>
+              <button id="login"><a href="#">LOGIN</a></button>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Cse')">
+          Cse
+        </button>
+        <button class="button-value" onclick="filterProduct('Mech')">
+          Mech
+        </button>
+        <button class="button-value" onclick="filterProduct('Civil')">
+          Civil
+        </button>
+        <button class="button-value" onclick="filterProduct('EEE')">
+          EEE
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
