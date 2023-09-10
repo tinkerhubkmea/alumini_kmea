@@ -4,48 +4,64 @@ let products = {
       productName: "Pooja M P",
       category: "Cse",
       about: "30",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Reyna",
       category: "Cse",
       about: "49",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Breach",
       category: "Cse",
       about: "99",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Killjoy",
       category: "Mech",
       about: "29",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Raze",
       category: "Mech",
       about: "129",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Yoru",
       category: "Civil",
       about: "89",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Cypher",
       category: "Civil",
       about: "189",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
       productName: "Sova",
       category: "EEE",
       about: "49",
+      ph: "56",
+      email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
   ],
@@ -66,14 +82,22 @@ for (let i of products.data) {
   let container = document.createElement("div");
   container.classList.add("container");
   //name
-  let name = document.createElement("h5");
+  let name = document.createElement("h4");
   name.classList.add("product-name");
   name.innerText = i.productName.toUpperCase();
   container.appendChild(name);
   //about
   let about = document.createElement("h6");
-  about.innerText = "" + i.about;
+  about.innerText = i.about;
   container.appendChild(about);
+
+  let ph = document.createElement("h6");
+  ph.innerText = "+91 " + i.ph;
+  container.appendChild(ph);
+
+  let email = document.createElement("h6");
+  email.innerText = i.email + "@gmail.com";
+  container.appendChild(email);
 
   card.appendChild(container);
   document.getElementById("products").appendChild(card);
