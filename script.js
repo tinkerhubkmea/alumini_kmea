@@ -1,7 +1,7 @@
 let products = {
   data: [
     {
-      productName: "Pooja M P",
+      productName: "Pooja N P",
       category: "Cse",
       about: "30",
       ph: "56",
