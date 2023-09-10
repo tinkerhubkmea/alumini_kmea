@@ -1,7 +1,7 @@
 let products = {
   data: [
     {
-      productName: "Omen",
+      productName: "Pooja M P",
       category: "Cse",
       about: "30",
       image: "aluimages/sporty-smartwatch.jpg",
