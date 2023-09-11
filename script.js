@@ -1,7 +1,7 @@
 let products = {
   data: [
     {
-      productName: "Omen",
+      productName: "Pooja N P",
       category: "Cse",
       about: "30",
       pass: "2023",
@@ -10,12 +10,12 @@ let products = {
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
-      productName: "Reyna",
+      productName: "Dhiraj Nayona K P ",
       category: "Cse",
       about: "49",
       pass: "2023",
       ph: "56",
-      email: "abc",
+      email: "dhirajnayona",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
