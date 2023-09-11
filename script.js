@@ -9,11 +9,11 @@ let products = {
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
-      productName: "Reyna",
+      productName: "Dhiraj Nayona K P ",
       category: "Cse",
       about: "49",
       ph: "56",
-      email: "abc",
+      email: "dhirajnayona",
       image: "aluimages/sporty-smartwatch.jpg",
     },
     {
