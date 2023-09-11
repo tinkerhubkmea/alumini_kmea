@@ -7,7 +7,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Dhiraj Nayona K P ",
@@ -16,7 +16,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "dhirajnayona",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Breach",
@@ -25,7 +25,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Killjoy",
@@ -34,7 +34,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Raze",
@@ -43,7 +43,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Yoru",
@@ -52,7 +52,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Cypher",
@@ -61,7 +61,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
     {
       productName: "Sova",
@@ -70,7 +70,7 @@ let products = {
       pass: "2023",
       ph: "56",
       email: "abc",
-      image: "aluimages/sporty-smartwatch.jpg",
+      image: "aluimages/default.jpg",
     },
   ],
 };
