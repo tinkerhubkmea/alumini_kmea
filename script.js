@@ -4,6 +4,7 @@ let products = {
       productName: "Omen",
       category: "Cse",
       about: "30",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -12,6 +13,7 @@ let products = {
       productName: "Reyna",
       category: "Cse",
       about: "49",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -20,6 +22,7 @@ let products = {
       productName: "Breach",
       category: "Cse",
       about: "99",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -28,6 +31,7 @@ let products = {
       productName: "Killjoy",
       category: "Mech",
       about: "29",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -36,6 +40,7 @@ let products = {
       productName: "Raze",
       category: "Mech",
       about: "129",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -44,6 +49,7 @@ let products = {
       productName: "Yoru",
       category: "Civil",
       about: "89",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -52,6 +58,7 @@ let products = {
       productName: "Cypher",
       category: "Civil",
       about: "189",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -60,6 +67,7 @@ let products = {
       productName: "Sova",
       category: "EEE",
       about: "49",
+      pass: "2023",
       ph: "56",
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
@@ -90,6 +98,10 @@ for (let i of products.data) {
   let about = document.createElement("h6");
   about.innerText = i.about;
   container.appendChild(about);
+
+  let pass = document.createElement("h6");
+  pass.innerText = i.pass;
+  container.appendChild(pass);
 
   let ph = document.createElement("h6");
   ph.innerText = "+91 " + i.ph;
