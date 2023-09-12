@@ -226,7 +226,7 @@ let products = {
       image: "aluimages/default.jpg",
     },
     {
-      productName: "Aseeba T A ",
+      productName: "Nidhin Krishna O B	Male	olikuzhi (H) padamugal south kakkanad west p.o		nbabuok@gmail.com	Unmarried	Electrical and Electronics Engineering	2023	nil	nil	Padamugal",
       category: "EEE",
       about: "Assistant Systems, Engineer Tata Consultancy Services, kochi",
       pass: "2021",
@@ -433,7 +433,7 @@ let products = {
       image: "aluimages/default.jpg",
     },
     {
-      productName: "Aseeba T A ",
+      productName: "Aseeba T A",
       category: "EEE",
       about: "Assistant Systems, Engineer Tata Consultancy Services, kochi",
       pass: "2021",
