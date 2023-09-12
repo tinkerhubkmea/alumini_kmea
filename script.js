@@ -64,6 +64,7 @@ let products = {
       email: "abc",
       image: "aluimages/sporty-smartwatch.jpg",
     },
+    /* sumi */
   ],
 };
 
