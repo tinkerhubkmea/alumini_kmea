@@ -2669,8 +2669,7 @@ let products = {
       image: "aluimages/default.jpg",
     },
     {
-      productName: "MOHAMMED RIZWAN NAZAR			
-      ",
+      productName: "MOHAMMED RIZWAN NAZAR",
       category: "Mech",
       about: "",
       pass: "2022",
